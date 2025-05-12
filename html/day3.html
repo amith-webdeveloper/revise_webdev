@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 3 of html</title>
+</head>
+<body>
+
+    <!-- topics 
+    1) HTML advance image tags
+    2) HTML void elements / Empty elements 
+    3) HTML picture tag
+    4) HTML figure tag
+    5) HTML list tag
+    -->
+
+
+    
+    <!-- advance image tags -->
+    <img src="./images/avatar.jpg" alt="avatar" usemap="#map" width="250" height="150">
+
+    <map name="map">
+        <area shape="circle" coords="0,0,125,150" href="https://youtube.com" alt="youtube">
+    </map>
+
+
+    <!-- void elements / Empty elements  -->
+   <!-- exp: the single tags that not include opening and closing tags such as img tag -->
+
+
+
+   <!-- HTML picture tag -->
+   <picture>
+    <source srcset="./images/avatar.jpg">
+   </picture>
+
+
+
+   <!-- HTML figure tag -->
+   <figure>
+    <img src="images/avatar.jpg" alt="avatar" width="500" height="auto">
+    <figcaption>anime avatar</figcaption>
+   </figure>
+
+
+   <!-- HTML List tag -->
+   unordered list 
+   <ul style="list-style-type: none;">
+    <li>Apple</li>
+    <li>banana</li>
+    <li>orange</li>
+   </ul>
+   <br>
+   <br>
+   ordered List
+   <ol style="list-style-type: upper-roman;">
+    <li>1st class</li>
+    <li>2nd class</li>
+    <li>3rd class</li>
+   </ol>
+   <ol start="2">
+    <li>1st class</li>
+    <li>2nd class</li>
+    <li>3rd class</li>
+   </ol>
+   <br>
+   <br>
+
+   nested List
+   <li>fruits
+     <ol>
+        <li>apple
+            <ul>
+                <li>red</li>
+                <li>green</li>
+            </ul>
+        </li>
+        <li>mango</li>
+        <li>banana</li>
+     </ol>
+   </li>
+   <li>vegetables</li>
+   <li>meats</li>
+
+   <br>
+   <br>
+
+   Navbar
+
+   <ul style="list-style: none; display: flex; gap:15px;">
+    <li>Home</li>
+    <li>services</li>
+    <li>About</li>
+    <li>contact us</li>
+   </ul>
+
+
+
+
+
+
+</body>
+</html>
